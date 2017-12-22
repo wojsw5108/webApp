@@ -1,0 +1,27 @@
+.left-enter{
+    transform: translate(100%,0);
+}
+.left-leave-to{
+    transform: translate(-100%,0);
+}
+.left-enter-active,.left-leave-active{
+    transition: 1s ease;
+}
+
+.bottom-enter{
+    transform: translate(0,100%);
+}
+.bottom-leave-to{
+    transform: translate(0,-100%);
+}
+.bottom-enter-active,.bottom-leave-active{
+    transition: 1s ease;
+}
+
+.fade-enter,.fade-leave-to{
+    opacity: 0;
+}
+
+.fade-enter-active,.fade-leave-active{
+    transition:.4s ease;
+}
